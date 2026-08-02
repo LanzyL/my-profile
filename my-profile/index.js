@@ -12,4 +12,4 @@ function calculate(a, b) {
   };
 }
 
-console.log(calculate(192, 73));
+console.log(calculate(2, 8));
