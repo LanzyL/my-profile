@@ -1,11 +1,15 @@
-let firstName = "Lance";
-let lastName = "Llaban";
-const imgSrc = "https://avatars.githubusercontent.com/LanzyL";
+function calculate(a, b) {
+  a = Number(a);
+  b = Number(b);
 
+  return {
+    add: a + b,
+    subtract: a - b,
+    multiply: a * b,
+    divide: a / b,
+    modulo: a % b,
+    exponent: a ** b
+  };
+}
 
-document.getElementById("content").innerHTML = `
-<h1>My Profile</h1>
-<p> My name is ${firstName} ${lastName}</p>
-<img src="${imgSrc}" alt="profile picture goes here"/>
-`;
-
+console.log(calculate(192, 73));
